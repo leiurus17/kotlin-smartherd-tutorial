@@ -1,11 +1,15 @@
 fun main(args: Array<String>) {
+
     var name: String
+    name = "Itachi"
 
-    name = "Steve"
-
-    display(name)
+    var personObj = Person()
+    personObj.display(name)
 }
 
-fun display(name: String) {
-    print(name)
+class Person {
+    fun display(name: String) {
+        print(name)
+    }
 }
+
