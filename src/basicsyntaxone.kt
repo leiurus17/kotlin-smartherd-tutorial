@@ -3,7 +3,8 @@ fun main(args: Array<String>) {
 
     var personObj = Person()
     personObj.name = "Steve"
-    personObj.display()
+
+    print("The name of the person is : " + personObj.name)
 }
 
 class Person {
